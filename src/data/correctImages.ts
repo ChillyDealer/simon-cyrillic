@@ -4,6 +4,7 @@ export const correctImages: string[] = [
   "https://media.tenor.com/2zeEpwGZAQ4AAAAe/spongebob-driving.png",
   "https://i.pinimg.com/736x/fa/95/a5/fa95a5adba0b448a4866d3c78598ed9f.jpg",
   "https://media.tenor.com/LEIWAEsO53IAAAAe/meme.png",
+  "https://preview.redd.it/please-help-me-find-the-original-artist-for-this-v0-hmz0dflk09kb1.jpg?width=2800&format=pjpg&auto=webp&s=d6dff326698baf566b30bd06bff01f367451de63",
 ];
 
 export function pickRandomImage(): string {
