@@ -1,1 +1,0 @@
-https://chillydealer.github.io/simon-cyrillic/
