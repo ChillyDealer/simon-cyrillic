@@ -52,7 +52,7 @@ export default function Quiz() {
     if (isCorrect) {
       setScore((s) => s + 1);
       setFeedback("correct");
-      setTimeout(advance, 1500);
+      setTimeout(advance, 2000);
     } else {
       setFeedback("incorrect");
       setCorrectAnswer(expected);

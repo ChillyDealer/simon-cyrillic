@@ -11,7 +11,7 @@ export default function FinishedScreen({
 }: Props) {
   return (
     <div className="quiz-container">
-      <h2 className="finished-title">Quiz Complete! 🎉</h2>
+      <h2 className="finished-title">Completed.</h2>
       <p className="finished-score">
         Final Score: <strong>{score}</strong> / {deckLength}
       </p>

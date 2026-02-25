@@ -17,8 +17,6 @@ export default function FeedbackPanel({
   const imageRef = useRef<string>("");
   const prevFeedback = useRef<Feedback>(null);
 
-  // Pick a new image synchronously the moment feedback becomes "correct",
-  // so there's no stale-image flash between questions.
   if (feedback === "correct" && prevFeedback.current !== "correct") {
     imageRef.current = pickRandomImage();
   }
